@@ -1,6 +1,6 @@
 package datashare.storage;
 
-import org.springframework.core.io.Resoure;
+import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.nio.file.Path;
@@ -16,7 +16,7 @@ public interface StorageService {
 
     Path load(String filename);
 
-    Resoure loadAsResouce(String filename);
+    Resource loadAsResource(String filename);
 
     void deleteAll();
 }

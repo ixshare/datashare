@@ -1,12 +1,12 @@
 package datashare.storage;
 
-public class StorageExcepton extends RuntimeException {
+public class StorageException extends RuntimeException {
 
-    public StorageExcepton(String message) {
+    public StorageException(String message) {
         super(message);
     }
 
-    public StorageExcepton(String message, Trowable cause) {
+    public StorageException(String message, Throwable cause) {
         super(message, cause);
     }
 }
